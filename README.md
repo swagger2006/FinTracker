@@ -1,112 +1,139 @@
-# FinTracker
+ FinTracker
 
-A responsive personal finance dashboard UI built for the Zorvyn Frontend Developer Intern assignment.
+A modern, responsive Finance Dashboard UI built for the Zorvyn Frontend Developer Intern Assignment.
 
-## Overview
+🔗 Live Demo: https://fin-tracker-lac.vercel.app/
+📂 GitHub Repository: https://github.com/swagger2006/FinTracker
 
-This project simulates a polished finance dashboard where users can:
+---
 
-- review balance, income, and expense summaries
-- explore monthly trend and category breakdown charts
-- search, filter, and sort transactions
-- export the currently filtered transactions to CSV
-- switch between `Viewer` and `Admin` roles
-- add or edit transactions in `Admin` mode
-- toggle between light and dark mode with persisted theme preference
-- use the app comfortably on desktop and mobile layouts
+🚀 Overview
 
-The app uses mock data only and does not depend on a backend.
+FinTracker is a frontend-focused finance dashboard designed to help users track, analyze, and understand financial activity through an intuitive and visually rich interface.
 
-## Features
+It demonstrates:
 
-- Single-page dashboard with anchored sections for Overview, Transactions, and Insights
-- Persistent Zustand store for role, theme, filters, and transactions
-- Role-based UI with read-only `Viewer` mode and editable `Admin` mode
-- CSV export for the visible filtered transaction list
-- Dark mode toggle with persisted preference
-- Mobile-friendly layout with:
-  mobile section navigation
-  stacked action controls
-  responsive chart sizing
-  card-based transaction list on small screens
-- Graceful empty state for filtered transaction results
+- Clean UI/UX design
+- Component-based architecture
+- Real-world dashboard patterns
+- Efficient state management
 
-## Tech Stack
+«⚠️ Built using mock data only (no backend).»
 
-- React 19
-- Vite
-- Zustand with persistence
-- Tailwind CSS v4
-- Recharts
-- React Icons
+---
 
-## Project Structure
+✨ Key Highlights
 
-```text
+- 📊 Interactive financial dashboard
+- 🔐 Role-based UI (Viewer/Admin)
+- 🌙 Dark mode with persistence
+- 📥 CSV export functionality
+- 📱 Fully responsive design
+- ⚡ Smooth user experience
+
+---
+
+🖥️ Dashboard Preview
+
+"Dashboard Overview" (./src/utils/dashboard.jpg)
+
+«A unified view showing financial summaries, role-based actions, and key metrics.»
+
+---
+
+📊 Analytics & Visualization
+
+"Analytics Graph" (./src/assets/analytics.jpg)
+
+«Includes time-based balance trends and category-wise spending breakdown using Recharts.»
+
+---
+
+📁 Transactions Management
+
+- Search, filter, and sort transactions
+- View detailed financial records
+- Admin can add/edit entries
+
+---
+
+📈 Insights
+
+- Highest spending category
+- Monthly comparisons
+- Financial trends & observations
+
+---
+
+🛠️ Tech Stack
+
+- ⚛️ React 19 + Vite
+- 🧠 Zustand (State Management + Persistence)
+- 🎨 Tailwind CSS v4
+- 📊 Recharts
+
+---
+
+📁 Project Structure
+
 FinTracker/
-|-- public/
-|   |-- favicon.svg
-|   `-- icons.svg
-|-- src/
-|   |-- assets/
-|   |   |-- hero.png
-|   |   |-- react.svg
-|   |   `-- vite.svg
-|   |-- components/
-|   |   |-- Layout.jsx
-|   |   |-- Sidebar.jsx
-|   |   `-- Topbar.jsx
-|   |-- data/
-|   |   `-- mockData.js
-|   |-- pages/
-|   |   |-- Dashboard.jsx
-|   |   |-- Insights.jsx
-|   |   `-- Transactions.jsx
-|   |-- store/
-|   |   `-- useFinanceStore.js
-|   |-- utils/
-|   |   `-- helpers.js
-|   |-- App.css
-|   |-- App.jsx
-|   |-- index.css
-|   `-- main.jsx
-|-- index.html
-|-- eslint.config.js
-|-- vite.config.js
-|-- package.json
-`-- README.md
-```
+├─ src/
+│  ├─ components/
+│  ├─ pages/
+│  ├─ store/
+│  ├─ data/
+│  └─ utils/
 
-## State Management
+---
 
-Zustand is used for:
+🧠 State Management
 
-- transaction data
-- selected role
-- selected theme
-- transaction filters
-- add/edit update actions
+Zustand manages:
 
-The store is persisted in local storage so role changes, theme preference, and transaction updates survive refreshes.
+- Transactions data
+- Role switching (Viewer/Admin)
+- Filters & search
+- Add/Edit actions
 
-## Run Locally
+✅ Persisted using localStorage
 
-```bash
+---
+
+▶️ Run Locally
+
 npm install
 npm run dev
-```
 
-## Build
+---
 
-```bash
+📦 Build
+
 npm run build
-```
 
-## Submission Notes
+---
 
-- Mock transactions cover multiple months to support trend and comparison visuals.
-- The role switcher in the top bar is the main RBAC demonstration control.
-- The theme toggle persists between refreshes.
-- CSV export downloads the currently filtered transaction set.
-- On mobile screens, section navigation moves to the top bar and transactions switch to a card layout for readability.
-- If you want to restore the original mock dataset after editing, use the reset action available in the transactions empty state or clear browser storage for this app.
+🌟 What Makes This Stand Out
+
+- Real-world fintech dashboard experience
+- Clean and modern UI design
+- Role-based interaction simulation
+- Persistent dark mode
+- CSV export (practical feature)
+- Scalable and maintainable structure
+
+---
+
+📌 Future Enhancements
+
+- Backend integration
+- Authentication system
+- Advanced filtering (date range)
+- Export to PDF
+- Real-time updates
+
+---
+
+🙌 Author
+
+Aruni Sharma
+📧 arunisharma2006@gmail.com
