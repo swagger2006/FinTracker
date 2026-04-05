@@ -62,18 +62,17 @@ It demonstrates:
  Project Structure
 
 FinTracker
-├─ public → favicon.svg, icons.svg
-├─ src → 
-│   assets → hero.png, react.svg, vite.svg
-│   components → Layout.jsx, Sidebar.jsx, Topbar.jsx
-│   pages → Dashboard.jsx, Insights.jsx, Transactions.jsx
-│   data → mockData.js
-│   store → useFinanceStore.js
-│   utils → helpers.js
-│   App.jsx, App.css, main.jsx, index.css
-├─ config → .gitignore, eslint.config.js, vite.config.js
-├─ package.json, package-lock.json
-└─ index.html, README.md
+├─ public      → favicon.svg, icons.svg
+├─ src         → assets(hero.png, react.svg, vite.svg)
+│               components(Layout.jsx, Sidebar.jsx, Topbar.jsx)
+│               pages(Dashboard.jsx, Insights.jsx, Transactions.jsx)
+│               data(mockData.js)
+│               store(useFinanceStore.js)
+│               utils(helpers.js)
+│               App.jsx, App.css, main.jsx, index.css
+├─ config      → .gitignore, eslint.config.js, vite.config.js
+├─ packages    → package.json, package-lock.json
+└─ root files  → index.html, README.md
 
 ---
 
