@@ -35,7 +35,7 @@ It demonstrates:
 
 🖥️ Dashboard Preview
 
-"Dashboard Overview" (src/utils/dashboard.jpg)
+"Dashboard Overview" (./src/utils/dashboard.jpg)
 
 «A unified view showing financial summaries, role-based actions, and key metrics.»
 
@@ -43,7 +43,7 @@ It demonstrates:
 
 📊 Analytics & Visualization
 
-"Analytics Graph" (src/assets/analytics.jpg)
+"Analytics Graph" (./src/assets/analytics.jpg)
 
 «Includes time-based balance trends and category-wise spending breakdown using Recharts.»
 
