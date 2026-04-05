@@ -170,3 +170,41 @@ export const getInsights = (transactions) => {
     observation,
   };
 };
+
+const escapeCsvValue = (value) =>
+  `"${String(value ?? "").replaceAll('"', '""')}"`;
+
+export const exportTransactionsToCsv = (transactions) => {
+  const headers = [
+    "ID",
+    "Date",
+    "Description",
+    "Merchant",
+    "Category",
+    "Type",
+    "Amount",
+  ];
+
+  const rows = transactions.map((tx) => [
+    tx.id,
+    tx.date,
+    tx.description,
+    tx.merchant,
+    tx.category,
+    tx.type,
+    tx.amount,
+  ]);
+
+  const csvContent = [headers, ...rows]
+    .map((row) => row.map(escapeCsvValue).join(","))
+    .join("\n");
+
+  const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+  const link = document.createElement("a");
+  const stamp = new Date().toISOString().slice(0, 10);
+
+  link.href = URL.createObjectURL(blob);
+  link.download = `fintracker-transactions-${stamp}.csv`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+};

@@ -13,10 +13,12 @@ export const useFinanceStore = create(
   persist(
     (set) => ({
       role: "Viewer",
+      theme: "light",
       filters: defaultFilters,
       transactions: initialTransactions,
 
       setRole: (role) => set({ role }),
+      setTheme: (theme) => set({ theme }),
 
       setFilter: (key, value) =>
         set((state) => ({
@@ -50,6 +52,7 @@ export const useFinanceStore = create(
       name: "fintracker-dashboard",
       partialize: (state) => ({
         role: state.role,
+        theme: state.theme,
         filters: state.filters,
         transactions: state.transactions,
       }),

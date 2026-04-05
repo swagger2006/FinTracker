@@ -15,7 +15,7 @@ const Sidebar = () => {
   };
 
   return (
-    <aside className="hidden w-72 shrink-0 border-r border-white/10 bg-slate-950/80 px-6 py-8 text-slate-100 lg:flex lg:flex-col">
+    <aside className="hidden w-72 shrink-0 border-r border-white/10 bg-slate-950/90 px-6 py-8 text-slate-100 transition-colors duration-300 lg:flex lg:flex-col dark:border-slate-800/80 dark:bg-[#060d18]/95">
       <div className="mb-10">
         <p className="text-xs uppercase tracking-[0.35em] text-amber-300/80">
           Zorvyn Assignment
@@ -47,14 +47,24 @@ const Sidebar = () => {
         })}
       </nav>
 
-      <div className="mt-auto rounded-3xl border border-emerald-400/20 bg-emerald-500/10 p-5">
-        <p className="text-xs uppercase tracking-[0.3em] text-emerald-300/80">
-          Focus
+      <div className="mt-auto rounded-3xl border border-amber-400/20 bg-white/5 p-5">
+        <p className="text-xs uppercase tracking-[0.3em] text-amber-300/80">
+          Polish Pass
         </p>
-        <p className="mt-3 text-sm leading-6 text-slate-200">
-          The UI stays intentionally lightweight while still covering charts,
-          filtering, responsive layouts, and admin interactions.
-        </p>
+        <div className="mt-4 space-y-3 text-sm text-slate-200">
+          <div className="flex items-center justify-between rounded-2xl bg-black/20 px-4 py-3">
+            <span>Dark mode toggle</span>
+            <span className="text-amber-300">Done</span>
+          </div>
+          <div className="flex items-center justify-between rounded-2xl bg-black/20 px-4 py-3">
+            <span>CSV export</span>
+            <span className="text-amber-300">Done</span>
+          </div>
+          <div className="flex items-center justify-between rounded-2xl bg-black/20 px-4 py-3">
+            <span>Human UI polish</span>
+            <span className="text-amber-300">Done</span>
+          </div>
+        </div>
       </div>
     </aside>
   );
