@@ -32,27 +32,7 @@ It demonstrates:
 -  Fully responsive design
 -  Smooth user experience
 
----
 
- Dashboard Preview
-
-
-![dashboard](https://github.com/user-attachments/assets/82e47770-dd7d-440e-a062-c282773d02a1)
-
-
-«A unified view showing financial summaries, role-based actions, and key metrics.»
-
----
-
- Analytics & Visualization
-
-
-![analytics](https://github.com/user-attachments/assets/107804e8-258d-4bec-8905-a54705a8b0de)
-
-
-«Includes time-based balance trends and category-wise spending breakdown using Recharts.»
-
----
 
  Transactions Management
 
@@ -81,13 +61,48 @@ It demonstrates:
 
  Project Structure
 
-FinTracker/
-├─ src/
-│  ├─ components/
-│  ├─ pages/
-│  ├─ store/
-│  ├─ data/
-│  └─ utils/
+FinTracker
+├── public
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src
+│   ├── assets
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   │
+│   ├── components
+│   │   ├── Layout.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── Topbar.jsx
+│   │
+│   ├── pages
+│   │   ├── Dashboard.jsx
+│   │   ├── Insights.jsx
+│   │   └── Transactions.jsx
+│   │
+│   ├── data
+│   │   └── mockData.js
+│   │
+│   ├── store
+│   │   └── useFinanceStore.js
+│   │
+│   ├── utils
+│   │   └── helpers.js
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
 
 ---
 
@@ -125,6 +140,27 @@ npm run build
 - Persistent dark mode
 - CSV export (practical feature)
 - Scalable and maintainable structure
+
+---
+
+
+ Dashboard Preview
+
+
+![dashboard](https://github.com/user-attachments/assets/82e47770-dd7d-440e-a062-c282773d02a1)
+
+
+«A unified view showing financial summaries, role-based actions, and key metrics.»
+
+---
+
+ Analytics & Visualization
+
+
+![analytics](https://github.com/user-attachments/assets/107804e8-258d-4bec-8905-a54705a8b0de)
+
+
+«Includes time-based balance trends and category-wise spending breakdown using Recharts.»
 
 ---
 
