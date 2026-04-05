@@ -62,47 +62,18 @@ It demonstrates:
  Project Structure
 
 FinTracker
-├── public
-│   ├── favicon.svg
-│   └── icons.svg
-│
-├── src
-│   ├── assets
-│   │   ├── hero.png
-│   │   ├── react.svg
-│   │   └── vite.svg
-│   │
-│   ├── components
-│   │   ├── Layout.jsx
-│   │   ├── Sidebar.jsx
-│   │   └── Topbar.jsx
-│   │
-│   ├── pages
-│   │   ├── Dashboard.jsx
-│   │   ├── Insights.jsx
-│   │   └── Transactions.jsx
-│   │
-│   ├── data
-│   │   └── mockData.js
-│   │
-│   ├── store
-│   │   └── useFinanceStore.js
-│   │
-│   ├── utils
-│   │   └── helpers.js
-│   │
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
-├── .gitignore
-├── README.md
-├── eslint.config.js
-├── index.html
-├── package.json
-├── package-lock.json
-└── vite.config.js
+├─ public → favicon.svg, icons.svg
+├─ src → 
+│   assets → hero.png, react.svg, vite.svg
+│   components → Layout.jsx, Sidebar.jsx, Topbar.jsx
+│   pages → Dashboard.jsx, Insights.jsx, Transactions.jsx
+│   data → mockData.js
+│   store → useFinanceStore.js
+│   utils → helpers.js
+│   App.jsx, App.css, main.jsx, index.css
+├─ config → .gitignore, eslint.config.js, vite.config.js
+├─ package.json, package-lock.json
+└─ index.html, README.md
 
 ---
 
