@@ -35,7 +35,7 @@ It demonstrates:
 
 🖥️ Dashboard Preview
 
-"Dashboard Overview" (./src/utils/dashboard.jpg)
+![Dashboard](https://raw.githubusercontent.com/swagger2006/FinTracker/main/src/utils/dashboard.jpg)
 
 «A unified view showing financial summaries, role-based actions, and key metrics.»
 
