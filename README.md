@@ -35,7 +35,9 @@ It demonstrates:
 
 🖥️ Dashboard Preview
 
-![Dashboard](https://raw.githubusercontent.com/swagger2006/FinTracker/main/src/utils/dashboard.jpg)
+
+![dashboard](https://github.com/user-attachments/assets/82e47770-dd7d-440e-a062-c282773d02a1)
+
 
 «A unified view showing financial summaries, role-based actions, and key metrics.»
 
@@ -43,7 +45,9 @@ It demonstrates:
 
 📊 Analytics & Visualization
 
-"Analytics Graph" (./src/assets/analytics.jpg)
+
+![analytics](https://github.com/user-attachments/assets/107804e8-258d-4bec-8905-a54705a8b0de)
+
 
 «Includes time-based balance trends and category-wise spending breakdown using Recharts.»
 
@@ -127,6 +131,7 @@ npm run build
 
 - Backend integration
 - Authentication system
+
 - Advanced filtering (date range)
 - Export to PDF
 - Real-time updates
