@@ -2,12 +2,13 @@
 
 A modern, responsive Finance Dashboard UI built for the Zorvyn Frontend Developer Intern Assignment.
 
-🔗 Live Demo: https://fin-tracker-lac.vercel.app/
-📂 GitHub Repository: https://github.com/swagger2006/FinTracker
+ Live Demo: https://fin-tracker-lac.vercel.app/
+ 
+ GitHub Repository: https://github.com/swagger2006/FinTracker
 
 ---
 
-🚀 Overview
+# Overview
 
 FinTracker is a frontend-focused finance dashboard designed to help users track, analyze, and understand financial activity through an intuitive and visually rich interface.
 
@@ -18,22 +19,22 @@ It demonstrates:
 - Real-world dashboard patterns
 - Efficient state management
 
-«⚠️ Built using mock data only (no backend).»
+« Built using mock data only (no backend).»
 
 ---
 
-✨ Key Highlights
+ Key Highlights
 
-- 📊 Interactive financial dashboard
-- 🔐 Role-based UI (Viewer/Admin)
-- 🌙 Dark mode with persistence
-- 📥 CSV export functionality
-- 📱 Fully responsive design
-- ⚡ Smooth user experience
+-  Interactive financial dashboard
+-  Role-based UI (Viewer/Admin)
+-  Dark mode with persistence
+-  CSV export functionality
+-  Fully responsive design
+-  Smooth user experience
 
 ---
 
-🖥️ Dashboard Preview
+ Dashboard Preview
 
 
 ![dashboard](https://github.com/user-attachments/assets/82e47770-dd7d-440e-a062-c282773d02a1)
@@ -43,7 +44,7 @@ It demonstrates:
 
 ---
 
-📊 Analytics & Visualization
+ Analytics & Visualization
 
 
 ![analytics](https://github.com/user-attachments/assets/107804e8-258d-4bec-8905-a54705a8b0de)
@@ -53,7 +54,7 @@ It demonstrates:
 
 ---
 
-📁 Transactions Management
+ Transactions Management
 
 - Search, filter, and sort transactions
 - View detailed financial records
@@ -61,7 +62,7 @@ It demonstrates:
 
 ---
 
-📈 Insights
+ Insights
 
 - Highest spending category
 - Monthly comparisons
@@ -69,16 +70,16 @@ It demonstrates:
 
 ---
 
-🛠️ Tech Stack
+ Tech Stack
 
-- ⚛️ React 19 + Vite
-- 🧠 Zustand (State Management + Persistence)
-- 🎨 Tailwind CSS v4
-- 📊 Recharts
+-  React 19 + Vite
+-  Zustand (State Management + Persistence)
+-  Tailwind CSS v4
+-  Recharts
 
 ---
 
-📁 Project Structure
+ Project Structure
 
 FinTracker/
 ├─ src/
@@ -90,7 +91,7 @@ FinTracker/
 
 ---
 
-🧠 State Management
+ State Management
 
 Zustand manages:
 
@@ -99,24 +100,24 @@ Zustand manages:
 - Filters & search
 - Add/Edit actions
 
-✅ Persisted using localStorage
+ Persisted using localStorage
 
 ---
 
-▶️ Run Locally
+ Run Locally
 
 npm install
 npm run dev
 
 ---
 
-📦 Build
+ Build
 
 npm run build
 
 ---
 
-🌟 What Makes This Stand Out
+ What Makes This Stand Out
 
 - Real-world fintech dashboard experience
 - Clean and modern UI design
@@ -127,7 +128,7 @@ npm run build
 
 ---
 
-📌 Future Enhancements
+ Future Enhancements
 
 - Backend integration
 - Authentication system
