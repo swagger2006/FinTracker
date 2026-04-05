@@ -139,7 +139,7 @@ npm run build
 
 ---
 
-🙌 Author
+ Author
 
 Aruni Sharma
-📧 arunisharma2006@gmail.com
+ arunisharma2006@gmail.com
