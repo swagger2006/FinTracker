@@ -23,6 +23,43 @@ The app uses mock data only and does not depend on a backend.
 - Tailwind CSS v4
 - Recharts
 
+## Project Structure
+
+```text
+FinTracker/
+├─ public/
+│  ├─ favicon.svg
+│  └─ icons.svg
+├─ src/
+│  ├─ assets/
+│  │  ├─ hero.png
+│  │  ├─ react.svg
+│  │  └─ vite.svg
+│  ├─ components/
+│  │  ├─ Layout.jsx
+│  │  ├─ Sidebar.jsx
+│  │  └─ Topbar.jsx
+│  ├─ data/
+│  │  └─ mockData.js
+│  ├─ pages/
+│  │  ├─ Dashboard.jsx
+│  │  ├─ Insights.jsx
+│  │  └─ Transactions.jsx
+│  ├─ store/
+│  │  └─ useFinanceStore.js
+│  ├─ utils/
+│  │  └─ helpers.js
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ index.html
+├─ eslint.config.js
+├─ vite.config.js
+├─ package.json
+└─ README.md
+```
+
 ## State Management
 
 Zustand is used for:
